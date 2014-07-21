@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <!-- Basic Page Needs
+		================================================== -->
+        <meta charset="utf-8" />
+        <title>Universalis</title>
+        <meta name="description" />
+        <meta name="author" />
+        <!-- Mobile Specific Metas
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- CSS
+		================================================== -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald|Open+Sans:400italic,600italic,700italic,400,700,600" />
+        <link rel="stylesheet" href="/css/base.css" />
+        <link rel="stylesheet" href="/css/skeleton.css" />
+        <link rel="stylesheet" href="/css/layout.css" />
+        <!-- JS
+		================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/js/jquery.slides.min.js"></script>
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script>
+					$(document).ready(function(){
+						
+						// Code for Mobile Menu, shows up on small screen resolutions
+						$('.expand-menu').click(function(e){
+							e.preventDefault();
+							$(this).toggleClass('open');
+							if($('nav.small.top ul').is(':hidden')){
+								$('nav.small.top ul').slideDown();
+							}else{
+								$('nav.small.top ul').slideUp();
+							}
+							
+						});
+						// --
+						
+					var logout = '{module_logout}';
+						if(logout !== '')
+						{
+							$('nav.top.small ul').append('<li>{module_logout}</li>');
+							$('nav.top.main ul').append('<li>{module_logout}</li>');
+						}
+						
+					});
+					$(function(){
+						$("#slides").slidesjs({
+							width: 940,
+							height: 300,
+							pagination: {
+								active: true,
+								// [boolean] Create pagination items.
+								// You cannot use your own pagination. Sorry.
+								effect: "slide"
+								// [string] Can be either "slide" or "fade".
+							},
+							navigation: {
+							active: false,
+								// [boolean] Generates next and previous buttons.
+								// You can set to false and use your own buttons.
+								// User defined buttons must have the following:
+								// previous button: class="slidesjs-previous slidesjs-navigation"
+								// next button: class="slidesjs-next slidesjs-navigation"
+							effect: "slide"
+								// [string] Can be either "slide" or "fade".
+							},
+							play: {
+								active: true,
+								// [boolean] Generate the play and stop buttons.
+								// You cannot use your own buttons. Sorry.
+								effect: "slide",
+								// [string] Can be either "slide" or "fade".
+								interval: 5000,
+								// [number] Time spent on each slide in milliseconds.
+								auto: true,
+								// [boolean] Start playing the slideshow on load.
+								swap: false,
+								// [boolean] show/hide stop and play buttons
+								pauseOnHover: true,
+								// [boolean] pause a playing slideshow on hover
+								restartDelay: 2500
+								// [number] restart delay on inactive slideshow
+							},
+							callback: {
+							loaded: function(number) {
+								// Do something awesome!
+								// Passes start slide number
+							},
+							start: function(number) {
+								// Do something awesome!
+								// Passes slide number at start of animation
+							},
+							complete: function(number) {
+								// Do something awesome!
+								// Passes slide number at end of animation
+							}
+							}
+						});
+					});
+		</script>
+    </head>
+    <body>
+        <!-- Primary Page Layout
+		================================================== -->
+        <nav class="small top">
+        <form name="catsearchform24316" method="post" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318">
+            <div class="search-box">
+            <input type="text" name="CAT_Search" id="CAT_Search" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        <a href="#" class="expand-menu"></a>
+        <div class="clear"></div>
+        {module_menu,1337216}
+        </nav>
+        <section class="container">
+        <div class="eight columns">
+        <nav class="main top">
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="four columns">
+        <form name="catsearchform24316" method="post" action="/Default.aspx?SiteSearchID=2465&amp;PageID=9154318" class="big-search">
+            <div class="search-box">
+            <input type="text" name="CAT_Search" id="CAT_Search" />
+            <input class="cat_button" type="submit" value="Search" />
+            </div>
+        </form>
+        </div>
+        </section>
+        <!-- end .container -->
+        <header class="main">
+        <div class="container">
+        <div class="twelve columns">
+        <div id="slides">
+        <img alt="" src="img/example-slide-1.jpg" />
+        <img alt="" src="img/example-slide-2.jpg" />
+        <img alt="" src="img/example-slide-3.jpg" />
+        <img alt="" src="img/example-slide-4.jpg" />
+        </div>
+        </div>
+        </div>
+        </header>
+        <!-- end .main -->
+        {tag_pagecontent}
+        <footer>
+        <div class="container">
+        <hr />
+        <div class="nine columns">
+        <nav>
+        {module_menu,1336130}
+        </nav>
+        </div>
+        <div class="three columns">
+        Powered by <a href="http://www.businesscatalyst.com" class="powered">Business Catalyst</a>
+        </div>
+        </div>
+        </footer>
+        <!-- Script for retina images -->
+        <script type="text/javascript" src="/js/retina.js"></script>
+        <!-- End Document
+		================================================== -->
+    </body>
+</html>
