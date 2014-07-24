@@ -45,3 +45,24 @@
 	margin-top: 2rem;
 }
 
+
+/* Header
+***********************************************************/
+.logo_innov1{
+	color: #fff;
+}
+
+.logo_innov2{
+	color: #444;
+}
+.slogan_innov{
+	color: #313131;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	line-height: 0;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+.container_logo_innov{
+	margin-top: 2%;
+}
