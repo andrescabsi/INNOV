@@ -1,0 +1,282 @@
+/* Texto
+***********************************************************/
+body{
+	color: #313131;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h3, h4, h5, h6 {
+	font-family: coda,sans-serif;
+}
+h1{
+	font-weight: bold;
+}
+
+section p, .jumbotron p{
+	font-size: 16px;
+	line-height: 19px;
+}
+
+/* Margenes
+***********************************************************/
+.margen_abajo1{
+	margin-bottom: 1rem;
+}
+.margen_abajo2{
+	margin-bottom: 2rem;
+}
+.margen_abajo3{
+	margin-bottom: 3rem;
+}
+.margen_abajo4{
+	margin-bottom: 4rem;
+}
+.margen_abajo5{
+	margin-bottom: 5rem;
+}
+.margen_abajo6{
+	margin-bottom: 6rem;
+}
+
+.jumbotron{
+	margin-bottom: 0;
+	background-color: transparent;
+}
+
+/* Botones
+***********************************************************/
+.icono_video_popup{
+	color: #232E3F;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: all 0.5s ease;
+}
+
+.icono_video_popup:hover{
+	opacity: 1;
+}
+
+/* Navegación iconos
+***********************************************************/
+
+nav.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	z-index: 1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: transparent;
+	padding: 1.2rem 0.7rem;
+}
+
+.nav-pills>li>a{
+	background-color: transparent;
+	padding: 1.2rem 0.7rem;
+}
+
+.nav>li>a:hover, .nav>li>a:focus, .nav>li>a:hover p{
+	background-color: transparent;
+	color: #464646;
+}
+
+nav i{
+	/*border-radius: 50%;*/
+	background: #FC0434;
+	padding: 0.7rem 0.8rem;
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 0.2rem;
+}
+
+nav li.active i, nav li:hover i{
+	background-color: #464646;
+}
+nav p{
+	color: #FC0434;
+	font-size: 0.8rem;
+	font-weight: bold;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+nav li.active p{
+	color: #464646;
+}
+
+nav ul{
+	margin-right: 2rem;
+}
+
+nav li{
+	text-align: center;
+}
+
+
+
+/* Fondos
+***********************************************************/
+.amarillo{
+	background-color: #FFCD69;
+}
+.rojo{
+	background-color: #FC0434;
+	color: white;
+}
+.azul{
+	background-color: #00BFF3;
+	color: white;
+}
+.azul-oscuro{
+	background-color: #1E3C50;
+	color: white;
+}
+.verde{
+	background-color: #00CC7B;
+	color: white;
+}
+.aguamarina{
+	background-color: #1FCFC2;
+	color: white;
+}
+.negrofooter{
+	background: #3E464E url("/img/inicio/pattern_footer.jpg") repeat left top;
+}
+.fondo_blanco_pattern_inicio{
+	background: #FFCD69 url("/img/diagonal/header.png") no-repeat right top;
+}
+.blanquito{
+	background: #ccc url("/img/diagonal/franja-blanca.png") no-repeat center center;
+	min-height: 29.6rem;
+}
+.negro{
+	color: #313131;
+}
+
+/* Iconos
+***********************************************************/
+
+.fa-inn2 {
+  font-size: 2rem;
+}
+.fa-inn2_5 {
+  font-size: 2.5rem;
+}
+.fa-inn3 {
+  font-size: 4rem;
+}
+.fa-inn4 {
+  font-size: 7rem;
+}
+.fa-inn5 {
+  font-size: 12rem;
+}
+.fa-inn6 {
+  font-size: 20rem;
+}
+.fa-inn1,
+.fa-inn2,
+.fa-inn3,
+.fa-inn4,
+.fa-inn5,
+.fa-inn6 {
+  margin-right: 0.07142857em;
+}
+
+.amarillot{
+	color: #FFCD69;
+}
+
+.fa.pull-right{
+	margin-left: 0px;
+}
+
+/* Footer
+***********************************************************/
+
+footer{
+	position: relative;
+}
+
+footer h3{
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-weight: bold;
+	color: #FFCD69;
+}
+
+footer h4, footer a{
+	color: #FFCD69;
+	font-weight: 400;
+}
+
+footer address strong{
+	color: #FFCD69;
+}
+
+footer a{
+	margin-right: 1.5rem;
+}
+
+footer a:hover{
+	color: white;
+}
+
+footer li, footer p{
+	color: white;
+}
+
+footer.container-fluid {
+	padding: 3.5rem 1.5rem;
+}
+
+footer address{
+	color: white;
+}
+
+footer address a{
+	color: white;
+}
+
+#badge_adobe{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#terminos_condiciones_innov{
+	margin-top: 2rem;
+}
+
+#edificio_oficinas_innov{
+	margin-right: 3rem;
+}
+
+/* Header
+***********************************************************/
+
+a.logo_innov{
+	font-size: 4rem;
+	text-decoration: none;	
+}
+
+.logo_innov1{
+	color: #fff;
+}
+
+.logo_innov2{
+	color: #444;
+}
+.slogan_innov{
+	color: #313131;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	line-height: 0.8rem;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+.container_logo_innov{
+	margin-top: 2%;
+}
+

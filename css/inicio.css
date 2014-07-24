@@ -1,0 +1,47 @@
+/* Mapas
+***********************************************************/
+#contenedor_mapa{
+	overflow: hidden;
+	position: relative;
+}
+
+#user_gmap{
+	width:55%;
+	height:600px;
+	border: 0;
+	position: absolute;
+	top: -93px;
+	right: 0px;
+}
+#user_glink {
+	width:600px;
+	text-align:right;
+	font-size:10px;
+	font-weight:normal;
+	padding:0px;
+	height:20px;
+	margin:0px;
+}
+
+#tag_google_maps_inicio{
+	color: #313131;
+	display: block;
+	position: relative;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+/* Imagen
+***********************************************************/
+.img-responsive{
+	display: inline-block;
+}
+
+/* Boton
+***********************************************************/
+.btn{
+	margin-top: 2rem;
+}
+
