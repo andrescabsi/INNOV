@@ -155,6 +155,9 @@ nav li{
 	background: #ccc url("/img/diagonal/franja-blanca.png") no-repeat center center;
 	min-height: 29.6rem;
 }
+.blanco_b{
+	background: #FFFFFF url("/img/patterns/blanco.jpg") repeat left top scroll;
+}
 .negro{
 	color: #313131;
 }
