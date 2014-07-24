@@ -204,11 +204,29 @@ nav li{
 ***********************************************************/
 
 footer{
-	position: absolute;
-	bottom: 0;
+	/*position: absolute;
 	left: 0;
+	width: 100%;*/
+}
+
+.wrapper_ppal{
+	display: table;
+	height: 100%;
 	width: 100%;
 }
+
+
+html, body {
+	height: 100%;
+}
+.bloque {
+	display: table-row;
+	height: 1px;
+}
+.pushs {
+	height: auto;
+}
+
 
 footer h3{
 	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
