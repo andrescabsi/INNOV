@@ -1,3 +1,12 @@
+/* Fuentes
+***********************************************************/
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Coda'), local('Coda-Regular'), url(http://fonts.gstatic.com/s/coda/v9/4Jb-FkcfQYfqLngSPKT1r_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
 /* Texto y tags
 ***********************************************************/
 body{
@@ -13,11 +22,6 @@ h3, h4, h5, h6 {
 }
 h1{
 	font-weight: bold;
-}
-
-section p, .jumbotron p{
-	font-size: 16px;
-	line-height: 19px;
 }
 
 hr{
@@ -228,7 +232,7 @@ nav li{
 .fa-inn4,
 .fa-inn5,
 .fa-inn6 {
-  margin-right: 0.07142857em;
+  margin-right: 0;
 }
 
 .amarillot{
@@ -236,6 +240,9 @@ nav li{
 }
 .blancot{
 	color: white;
+}
+.rojot{
+	color: #FC0434
 }
 
 .fa.pull-right{
@@ -346,5 +353,11 @@ footer .container, footer .col-md-12, footer .col-md-6{
 a.logo_innov{
 	font-size: 4rem;
 	text-decoration: none;	
+}
+
+/* Arreglo img responsive
+***********************************************************/
+.img-responsive {
+    margin: 0 auto;
 }
 
