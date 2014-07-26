@@ -37,6 +37,10 @@ footer hr{
 	padding-top: 0;
 }
 
+.jumbotron p{
+	font-size: 1.6rem;
+}
+
 /* Texto
 ***********************************************************/
 h1{

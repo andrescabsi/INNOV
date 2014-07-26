@@ -355,6 +355,10 @@ a.logo_innov{
 	text-decoration: none;	
 }
 
+header nav p{
+	font-size: 0.9rem;
+}
+
 /* Arreglo img responsive
 ***********************************************************/
 .img-responsive {
