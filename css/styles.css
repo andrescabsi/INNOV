@@ -110,6 +110,18 @@ nav.navbar-default {
 	color: #464646;
 }
 
+.nav>li>a:active{
+	background-color: transparent;
+	color: #464646;
+}
+.nav p:active{
+	background-color: transparent;
+	color: #464646;
+}
+.nav i:active{
+	background: #464646;
+}
+
 nav i{
 	/*border-radius: 50%;*/
 	background: #FC0434;
@@ -141,7 +153,15 @@ nav li{
 	text-align: center;
 }
 
+header nav p{
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+}
 
+nav i{
+	transition: all 0.5s ease;
+}
 
 /* Fondos
 ***********************************************************/
@@ -347,16 +367,12 @@ footer .container, footer .col-md-12, footer .col-md-6{
 	padding-left: 0;
 }
 
-/* Header
+/* Logo
 ***********************************************************/
 
 a.logo_innov{
 	font-size: 4rem;
 	text-decoration: none;	
-}
-
-header nav p{
-	font-size: 0.9rem;
 }
 
 /* Arreglo img responsive
