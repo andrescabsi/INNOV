@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>INNOV | Mejores ventas, mejores negocios, mejores vidas</title>
     {module_contentholder,124569}<!-- head-scripts -->
-    <link href="/css/inicio.css" rel="stylesheet"><!-- CSS Inicio -->
   </head>
   <body class="blanco_b">
     <section class="wrapper_ppal">
-      <header class="row amarillo bloque">
+      <header class="row bloque amarillo">
         <div class="container fondo_blanco_pattern_inicio">
           <!-- Menu -->
           {module_menu, version="2", menuId="2134772", moduleTemplateGroup="Default"}
           <!-- Logo -->
           <div class="container_logo_innov pull-left">
             <a class="main-logo logo_innov" href="#">
-              <span class="logo_innov1">IN</span><span class="logo_innov2">NOV</span>
-              <p class="slogan_innov">La Evolución de las Páginas Web</p>
+              {module_webapps,36832,i,7971096,,,,1000,true,1 template="/apps/Mi-Empresa/marca.tpl"}
+              <p class="slogan_innov">
+                {module_webapps,36832,i,7971096,,,,1000,true,1 template="/apps/Mi-Empresa/slogan.tpl"}
+              </p>
             </a>
           </div><!-- End Logo -->
 
@@ -26,9 +27,6 @@
         </div>
       </header>
   <!-- Fin Header -->
-
-
-
 
         <section class="bloque pushs">
           {tag_pagecontent}
@@ -45,62 +43,27 @@
           </div>
           <br>
           <div class="col-md-6 text-left">
-            <img id="edificio_oficinas_innov" class="img-thumbnail img-responsive pull-left" src="/img/inicio/oficina.jpg" alt="">
-            <address>
-              <strong>INNOV MS S.A.S.</strong><br>
-              Carrera 7 # 99 - 21<br>
-              Torre 1 Piso 14<br>
-              Bogotá DC -Colombia<br><br>
-              <strong>Teléfonos:</strong><br>
-              (+57)(1) 680 11 26<br>
-              (+57)  320 331 90 43<br><br>
-              <strong>Correo:</strong><br>
-              <a href="mailto:info@innov.com.co">info@innov.com.co</a>
-            </address>
-
+            <!-- Info contacto Mi Empresa -->
+            {module_webapps,36832,i,7971096,,,,1000,true,1}
           </div>
 
           <div class="col-md-2">
-            <h4>INNOV</h4>
-            <ul class="list-unstyled">
-              <li>Nombre Elemento 1</li>
-              <li>Nombre Elemento 2</li>
-              <li>Nombre Elemento 3</li>
-              <li>Nombre Elemento 4</li>
-              <li>Nombre Elemento 5</li>
-              <li>Nombre Elemento 6</li>
-            </ul>
+            <!-- Menu INNOV -->
+            {module_menu, version="2", menuId="2134779", moduleTemplateGroup="Footer"}
           </div>
           <div class="col-md-2">
-            <h4>Método</h4>
-            <ul class="list-unstyled">
-              <li>Nombre Elemento 1</li>
-              <li>Nombre Elemento 2</li>
-              <li>Nombre Elemento 3</li>
-              <li>Nombre Elemento 4</li>
-              <li>Nombre Elemento 5</li>
-              <li>Nombre Elemento 6</li>
-            </ul>
+            <!-- Menu Capacitación -->
+            {module_menu, version="2", menuId="2134780", moduleTemplateGroup="Footer"}
           </div>
           <div class="col-md-2">
-            <h4>Nosotros</h4>
-            <ul class="list-unstyled">
-              <li>Nombre Elemento 1</li>
-              <li>Nombre Elemento 2</li>
-              <li>Nombre Elemento 3</li>
-              <li>Nombre Elemento 4</li>
-              <li>Nombre Elemento 5</li>
-              <li>Nombre Elemento 6</li>
-            </ul>
+            <!-- Menu Soporte -->
+            {module_menu, version="2", menuId="2134781", moduleTemplateGroup="Footer"}
           </div>
 
           <div id="terminos_condiciones_innov" class="col-md-12">
-            <p class="pull-left terminos_condiciones_innov_texto">
-              <a href="">Política de Privacidad</a>
-              <a href="">Términos de Servicio</a>
-              <a href="">Mapa del Sitio</a>
-              <br>INNOV MS S.A.S. © 2014  |  Todos los derechos reservados.
-            </p>
+            <!-- Menu Terminos -->
+            {module_menu, version="2", menuId="2134782", moduleTemplateGroup="Footer_terminos"}
+
             <img class="pull-right" src="/img/inicio/created_with_adobe_technology_logotype_stacked_with_logo.jpg" alt="">
           </div>
 
@@ -109,11 +72,6 @@
 
       <!-- body-scripts -->
       {module_contentholder,124570}
-      <!-- Google Maps -->
-      <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-      <script type="text/javascript" src="/js/google_maps_inicio.js"></script>
-
-
     </section>
   </body>
 </html>

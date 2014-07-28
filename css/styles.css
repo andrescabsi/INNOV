@@ -13,6 +13,10 @@ body{
 	color: #313131;
 }
 
+a{
+	color: #FFCD69;
+}
+
 h2, h3, h4, h5, h6 {
 	margin: 0;
 }
@@ -22,6 +26,10 @@ h3, h4, h5, h6 {
 }
 h1{
 	font-weight: bold;
+}
+
+.jumbotron p{
+	font-size: 1.6rem;
 }
 
 hr{
@@ -192,7 +200,7 @@ nav i{
 	background: #3E464E url("/img/inicio/pattern_footer.jpg") repeat left top;
 }
 .fondo_blanco_pattern_inicio{
-	background: #FFCD69 url("/img/diagonal/header.png") no-repeat right top;
+	background: transparent url("/img/diagonal/header.png") no-repeat right top;
 }
 .blanquito{
 	background: #ccc url("/img/diagonal/franja-blanca.png") no-repeat center center;
@@ -269,6 +277,29 @@ nav i{
 	margin-left: 0px;
 }
 
+/* Header
+***********************************************************/
+.logo_innov1{
+	/*color: #FFCD69;*/
+	color: white;
+}
+
+.logo_innov2{
+	color: #444;
+}
+.slogan_innov{
+	color: #313131;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	line-height: 0;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+.container_logo_innov{
+	margin-top: 2%;
+}
+
+
 /* Footer
 ***********************************************************/
 
@@ -324,7 +355,7 @@ footer a:hover{
 	color: white;
 }
 
-footer li, footer p{
+footer li, footer li a, footer p{
 	color: white;
 }
 
@@ -381,3 +412,20 @@ a.logo_innov{
     margin: 0 auto;
 }
 
+/* Menu
+***********************************************************/
+.menu-h4{
+	margin-bottom: 1rem;
+}
+.menu-h4 a{
+	color: #FFCD69;
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 2rem;
+	font-family: coda,sans-serif;
+}
+
+#menu-footer-terminos li{
+
+}

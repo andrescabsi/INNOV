@@ -5,6 +5,27 @@ section p, .jumbotron p{
 	line-height: 19px;
 }
 
+/* Header
+***********************************************************/
+.fondo_blanco_pattern_inicio{
+	background: #FFCD69 url("/img/diagonal/header.png") no-repeat right top;
+}
+
+.logo_innov2{
+	color: #444;
+}
+.slogan_innov{
+	color: #313131;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	line-height: 0;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+.container_logo_innov{
+	margin-top: 2%;
+}
+
 /* Mapas
 ***********************************************************/
 #contenedor_mapa{
@@ -52,24 +73,3 @@ section p, .jumbotron p{
 	margin-top: 2rem;
 }
 
-
-/* Header
-***********************************************************/
-.logo_innov1{
-	color: #fff;
-}
-
-.logo_innov2{
-	color: #444;
-}
-.slogan_innov{
-	color: #313131;
-	text-transform: uppercase;
-	font-size: 0.9rem;
-	line-height: 0;
-	font-weight: bold;
-	margin-bottom: 3rem;
-}
-.container_logo_innov{
-	margin-top: 2%;
-}
